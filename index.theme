@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Royal
+Comment=A modern flat theme based on Numix
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Royal
+MetacityTheme=Royal
+ButtonLayout=:minimize,maximize,close

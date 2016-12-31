@@ -1,0 +1,80 @@
+QMainWindow,
+QAbstractItemView,
+QTabBar::tab
+{
+    color: #EAEAEA;
+    background: #4E4857;
+}
+
+QHeaderView::section {
+    background-color: #4A4552;
+    color: white;
+    padding: 4px;
+    border: 0;
+}
+
+QTabBar::tab:selected {
+    color: #FFFFFF;
+    background: #888888;
+    border: 1px solid #666666;
+    padding: 5px 5px 5px 5px;
+}
+
+QTabBar::tab:!selected {
+    color: #CCCCCC;
+    background: #666666;
+    border: 1px solid #444444;
+    padding: 5px 5px 5px 5px;
+}
+
+QToolBar {
+     border-style: solid;
+     border-style: outset;
+     color: #EAEAEA;
+     background: #333333; 
+     font-size: 9pt;
+}
+
+QDialog
+{
+    color: #EAEAEA;
+    background: #999999;
+}
+
+QObject[windowTitle="Search Results"] QWidget
+{
+    color: #FFFFFF;
+    background: #666666;
+}
+
+QObject[windowTitle="Issues"]
+{
+    color: #EAEAEA;
+    background: #666666;
+}
+
+QObject[windowTitle="Locals and Expressions"]
+{
+    color: #000000;
+    background: #FFFFFF;
+}
+
+QWidget[windowTitle="Compile Output"],
+QWidget[windowTitle="Version Control"],
+QWidget[windowTitle="QML/JS Console"]
+{
+    color: #EAEAEA;
+    background: #222222;
+}
+
+QTabWidget QPlainTextEdit
+{
+    color: #EAEAEA;
+    background: #222222;
+}
+
+/*QPlainTextEdit {
+    color: #EAEAEA;
+    background: #222222;
+}*/
+
